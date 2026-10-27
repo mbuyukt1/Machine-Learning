@@ -1,0 +1,21 @@
+etl_metadata:
+  lead: "Miray B\xFCy\xFCktepe"
+  student_id: 73681
+  seed: 73681
+checksums:
+  train_sha256: 4834c4dda77885761ea65264c752fb5552201b86cb0b44a6909dddde80a3ffc9
+  test_sha256: 93ec5c6f6bca1f5f948c0eb9c70dd3f578829adb7e5979d5f57078ae65f45b0f
+scores:
+  raw_baseline:
+    accuracy: 0.8501
+    f1: 0.6547
+    precision: 0.7295
+    recall: 0.5938
+  feature_engineered:
+    accuracy: 0.8519
+    f1: 0.6619
+    precision: 0.7294
+    recall: 0.6058
+  delta:
+    accuracy_gain: 0.0018
+    f1_gain: 0.0072
